@@ -5,7 +5,7 @@ jobs :
     runs-on: ubuntu-latest
     steps:
       - name : "Say Get Started"
-        run : echo "Sedang ditarik atau dipull"
+        run : echo "Sedang ditarik atau dipull123"
       - name : "Say Goodbye"
         run : echo "Selesai di tarik"
   create-folder:
