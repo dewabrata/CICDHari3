@@ -8,3 +8,10 @@ jobs :
         run : echo "Hello World"
       - name : "Say Goodbye"
         run : echo "Say Goodbye"
+  create-directory :
+    runs-on: :ubuntu-latest
+    steps:
+      - name: "create directory"
+        run : mkdir testfolder
+      - name : "list file"
+        run : ls -la
