@@ -1,0 +1,18 @@
+name: Workflow Kedua
+on : pull
+jobs :
+  say-hello :
+    runs-on: ubuntu-latest
+    steps:
+      - name : "Say Get Started"
+        run : echo "Sedang ditarik atau dipull"
+      - name : "Say Goodbye"
+        run : echo "Selesai di tarik"
+  create-folder:
+    runs-on: ubuntu-latest
+    steps:
+      - name : "Git Clone"
+        run : git clone https://github.com/dewabrata/CICDHari3.git
+      - name : "list file"
+        run : ls -la
+     
