@@ -1,0 +1,5 @@
+# File ini berisi daftar dependensi untuk proyek kalkulator.
+# Untuk proyek ini, kita hanya menggunakan pustaka standar Python,
+# jadi tidak ada dependensi eksternal yang perlu diinstal.
+
+# Python >= 3.10
